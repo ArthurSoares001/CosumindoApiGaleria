@@ -1,0 +1,125 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Abel', sans-serif;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 1.6rem;
+}
+.product_header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1 {
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+    font-size: 4.3rem;
+    padding: 20px;
+}
+
+/*user agent stylesheet*/
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.product_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.product_section .product {
+    transition: 0.5s ease;
+    width: 25%;
+    margin-bottom: 30px;
+}
+.product_section a {
+    text-decoration: none;
+    color: #333;
+}
+.product_section .product .product_image {
+    width: 60%;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    display: block;
+}
+img {
+    border-style: none;
+}
+a {
+    color: #8a6063;
+    word-break: break-all;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+-->
+product_section .product .panel-body {
+    padding: 20px;
+    text-align: left;
+}
+
+-->
+
+h3, h4, h5, p, a {
+    font-family: 'Abel', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+
+td,  tr, table {
+            border: 1px solid black;
+        }
+
+        .container .pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            margin-top: 8px;
+        }
+
+        .container .pagination div {
+            cursor: pointer;
+    
+            /* border: 1px solid #eee; */
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            font-size: 14;
+        }
+    
+        .container .pagination div:not(.numbers),
+        .container .pagination div.numbers div{
+            width: 40px;
+            height: 40px;
+        }
+    
+        .container .pagination div.numbers div:hover,
+        .container .pagination div.numbers div.active {
+            color: var(--primary);
+        }
+    
+
+        
